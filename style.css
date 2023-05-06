@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,600&family=Satisfy&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-nav a{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    margin: 0px 20px;
+    color: white;
+  }
+  .link:hover{
+    color: #00d690!important;
+  }
+  .active-link{
+    color: #00d690!important;
+  }
+  .nav-item{
+    margin: 5px 20px;
+  }
+  .nav-item button{
+    padding: 10px 20px;
+    font-size: 1.6rem;
+  }
+  .nav-pills .nav-link{
+    color: #00d690!important;
+  }
+
+  .nav-pills .nav-link.active{
+    background-color:#00d690;
+    color: white!important;
+  }
+
+
+.carousel-caption{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.carousel .carousel-item{
+    height: 90vh;
+}
+
+.carousel-item img{
+    position: absolute;
+    object-fit: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    filter: brightness(40%);
+}
+.carousel-caption h1{
+    font-size: 3rem;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+  }
+  .btn-primary{
+    color: #00d690!important;
+    background-color: transparent;
+    border-color: #00d690!important;
+  }
+  .btn-primary:hover{
+    color: white!important;
+    background-color: #00d690!important;
+    border-color: #00d690!important;
+  }
+  .btn-outline-primary{
+    color: #00d690!important;
+    background-color: transparent;
+    border-color: #00d690!important;
+  }
+  .btn-outline-primary:hover{
+    color: white!important;
+    background-color: #00d690!important;
+    border-color: #00d690!important;
+  }
+.text-primary{
+    font-family: 'Satisfy', cursive;
+    color: #00d690!important;
+}
+.bg-primary{
+    background-color: #00d690!important;
+}
+
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 11;
+  }
+
+  .place-carousel .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .place-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: grey;
+    transition: .5s;
+  }
+  
+  .place-carousel .owl-dot.active {
+    width: 40px;
+    background: #00d690;
+  }
+
+  .card-img{
+    filter: brightness(40%);
+  }
+
+  @media (min-width: 768px) {
+    .booking {
+      position: relative;
+      margin-top: -60px !important;
+      z-index: 1;
+    }
+   
+  }
