@@ -350,6 +350,7 @@ main > div > a:hover {
 .destinations-one {
   position: relative;
   display: block;
+  
 }
 
 
@@ -380,7 +381,7 @@ main > div > a:hover {
   bottom: 0;
   content: "";
   border-radius: 8px;
-  background-color: rgba(49,48,65, .50);
+  background-color: rgba(0,0,0, .50);
   transform: scale(1, 0);
   transition: transform 500ms ease;
   transform-origin: top center;
@@ -413,6 +414,7 @@ main > div > a:hover {
 .destinations-one__sub-title {
   font-size: 20px;
   color: #00d690;
+ 
   margin: 0;
   line-height: 30px;
   letter-spacing: -0.02em;
@@ -431,13 +433,13 @@ main > div > a:hover {
 }
 
 .destinations-one__title>a {
-  color: #fff;
+  color: white;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .destinations-one__title>a:hover {
-  color: #00d690;
+  color:#00d690;
 }
 
 .destinations-one__button {
@@ -457,20 +459,21 @@ main > div > a:hover {
 .destinations-one__button>a {
   font-size: 11px;
   font-weight: 700;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background-color: #00d690;
+  background-color:#00d690;
   display: inline-block;
-  border-radius: 8px;
+  border-radius:8px;
   padding: 0 15px 0;
   transition: all 500ms ease;
 }
 
 .destinations-one__button>a:hover {
-  background-color: #fff;
+  background-color: white;
   color: #00d690;
 }
+
 
 .about-one {
   position: relative;
