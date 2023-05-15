@@ -7,6 +7,30 @@ $(window).scroll(function(){
         
     }
   });
+
+
+  const 
+    popup = document.querySelector(".popup"),
+    close = popup.querySelector(".close");
+   
+
+    var delay = 2000;
+  setTimeout(function() {
+    $(document).ready(function () {
+  
+      popup.classList.toggle("show");
+    
+    });
+    setTimeout(function() {
+      close.onclick = ()=>{
+        popup.classList.remove("show");
+      }
+     }, delay);
+  }, delay);
+    
+    
+
+    
   
   //Click event scroll to top button jquery
   
