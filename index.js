@@ -9,7 +9,7 @@ $(window).scroll(function(){
   });
 
 
-  const 
+//   const 
 //     popup = document.querySelector(".popup"),
 //     close = popup.querySelector(".close");
    
