@@ -10,8 +10,8 @@ $(window).scroll(function(){
 
 
   const 
-    popup = document.querySelector(".popup"),
-    close = popup.querySelector(".close");
+//     popup = document.querySelector(".popup"),
+//     close = popup.querySelector(".close");
    
 
 
