@@ -15,22 +15,22 @@ $(window).scroll(function(){
    
 
 
-  var delay = 5000;
-  setTimeout(function() {
-    setInterval(function(){
-      $(document).ready(function () {
+//   var delay = 5000;
+//   setTimeout(function() {
+//     setInterval(function(){
+//       $(document).ready(function () {
   
-        popup.classList.toggle("show");
+//         popup.classList.toggle("show");
       
-      });
-    },6000)
+//       });
+//     },6000)
     
     
-  }, delay);
+//   }, delay);
     
-  close.onclick = ()=>{
-    popup.classList.remove("show");
-  }
+//   close.onclick = ()=>{
+//     popup.classList.remove("show");
+//   }
 
   
 
