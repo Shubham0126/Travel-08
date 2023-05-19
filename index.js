@@ -14,21 +14,25 @@ $(window).scroll(function(){
     close = popup.querySelector(".close");
    
 
-    var delay = 2000;
+
+  var delay = 5000;
   setTimeout(function() {
-    $(document).ready(function () {
+    setInterval(function(){
+      $(document).ready(function () {
   
-      popup.classList.toggle("show");
+        popup.classList.toggle("show");
+      
+      });
+    },6000)
     
-    });
-    setTimeout(function() {
-      close.onclick = ()=>{
-        popup.classList.remove("show");
-      }
-     }, delay);
+    
   }, delay);
     
-    
+  close.onclick = ()=>{
+    popup.classList.remove("show");
+  }
+
+  
 
     
   
